@@ -27,19 +27,19 @@ way = input("You are starting at a crossroad with two ways. Which way do you cho
 way_ = way.lower()
 
 if way_ == "right":
-  print("You fell into a whole and died. Game Over.")
+  print("You fell into a hole and died. Game Over.")
 else:
   lake = input("You arrive at a lake. Will you wait or swim? ")
   lake_ = lake.lower()
   if lake_ == "swim":
     print("You drowned in the lake. Game Over.")
   else:
-    print("After a while a boat came and brought you to the other side.")
+    print("After a while, a boat came and brought you to the other side.")
     doors = input("You are now standing in front of a yellow, blue and red door. Which one will you open? ")
     doors_ = doors.lower()
     if doors_ == "red":
       print("You got killed by a burst of fire. Game Over.")
     elif doors_ == "yellow":
-      print("You breathed in a poisen cloud and died. Game Over.")
+      print("You breathed in a poison cloud and died. Game Over.")
     else:
       print("You found the treasure. Good fortune!")
